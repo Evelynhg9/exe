@@ -8,9 +8,9 @@
 
 <?php
 $dbname = 'phptest';
-$dbuser = 'username';
-$dbpass = 'password';
-$dbhost = 'location';
+$dbuser = 'root';
+$dbpass = 'root';
+$dbhost = 'localhost';
 $connect = mysql_connect($dbhost, $dbuser, $dbpass) or die("Unable to connect to '$dbhost'");
 mysql_select_db($dbname) or die("Could not open the database '$dbname'");
 $result = mysql_query("SELECT id, name FROM employees");
