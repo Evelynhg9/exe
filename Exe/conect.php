@@ -7,7 +7,7 @@
 <h3>Welcome to the PHP Connect Test</h3>
 
 <?php
-$dbname = 'phptest';
+$dbname = 'Glosario';
 $dbuser = 'root';
 $dbpass = 'root';
 $dbhost = 'localhost';
